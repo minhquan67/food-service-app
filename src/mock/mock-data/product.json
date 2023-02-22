@@ -1,0 +1,173 @@
+[
+    {
+        "$id": "A01",
+        "productName": "Chicken Fillets, 6 x 100g",
+        "productCategory": "Meat & Poultry",
+        "productPrice": 4.50,
+        "priceDiscount": "",
+        "productDescription": "",
+        "productQuatity": 12
+    },
+    {
+        "$id": "A02",
+        "productName": "Sirloin Steaks, 4 x 6-8oz",
+        "productCategory": "Meat & Poultry",
+        "productPrice": 45.7,
+        "priceDiscount": "",
+        "productDescription": "",
+        "productQuatity": 6
+    },
+    {
+        "$id": "A03",
+        "productName": "Whole Free-Range Turkey, 1 x 16-18lbs",
+        "productCategory": "Meat & Poultry",
+        "productPrice": 48.25,
+        "priceDiscount": 43.20,
+        "productDescription": "",
+        "productQuatity": 8
+    },
+    {
+        "$id": "A04",
+        "productName": "Granny Smith Apples, 4 x 16 each",
+        "productCategory": "Fruit & Vegetables",
+        "productPrice": 3.75,
+        "priceDiscount": "",
+        "productDescription": "",
+        "productQuatity": 0
+    },
+    {
+        "$id": "A05",
+        "productName": "Loose Carrots, 4 x 20 each",
+        "productCategory": "Fruit & Vegetables",
+        "productPrice": 2.67,
+        "priceDiscount": "",
+        "productDescription": "",
+        "productQuatity": 2
+    },
+    {
+        "$id": "A06",
+        "productName": "Mandarin Oranges, 6 x 10 x 12",
+        "productCategory": "Fruit & Vegetables",
+        "productPrice": 12.23,
+        "priceDiscount": "",
+        "productDescription": "",
+        "productQuatity": 8
+    },
+    {
+        "$id": "A07",
+        "productName": "Cauliflower Florets, 10 x 500g",
+        "productCategory": "Fruit & Vegetables",
+        "productPrice": 6.75,
+        "priceDiscount": 5.00,
+        "productDescription": "",
+        "productQuatity": 5
+    },
+    {
+        "$id": "A08",
+        "productName": "Coca-Cola, 6 x 2L",
+        "productCategory": "Drinks",
+        "productPrice": 8.50,
+        "priceDiscount": 8.30,
+        "productDescription": "",
+        "productQuatity": 6
+    },
+    {
+        "$id": "A09",
+        "productName": "Still Mineral Water, 6 x 24 x 500ml",
+        "productCategory": "Drinks",
+        "productPrice": 21.75,
+        "priceDiscount": "",
+        "productDescription": "",
+        "productQuatity": 9
+    },
+    {
+        "$id": "A10",
+        "productName": "Sparkling Mineral Water, 6 x 24 x 500ml",
+        "productCategory": "Drinks",
+        "productPrice": 25.83,
+        "priceDiscount": "",
+        "productDescription": "",
+        "productQuatity": 16
+    },
+    {
+        "$id": "A11",
+        "productName": "Mars Bar, 6 x 24 x 50g",
+        "productCategory": "Confectionary & Desserts",
+        "productPrice": 42.82,
+        "priceDiscount": "",
+        "productDescription": "",
+        "productQuatity": 4
+    },
+    {
+        "$id": "A12",
+        "productName": "Peppermint Chewing Gum, 6 x 50 x 30g",
+        "productCategory": "Confectionary & Desserts",
+        "productPrice": 35.7,
+        "priceDiscount": "",
+        "productDescription": "",
+        "productQuatity": 6
+    },
+    {
+        "$id": "A13",
+        "productName": "Vanilla Ice Cream, 6 x 4L",
+        "productCategory": "Confectionary & Desserts",
+        "productPrice": 3.8,
+        "priceDiscount": "",
+        "productDescription": "",
+        "productQuatity": 2
+    },
+    {
+        "$id": "A14",
+        "productName": "Plain Flour, 10 x 1kg",
+        "productCategory": "Baking/Cooking Ingredients",
+        "productPrice": 6.21,
+        "priceDiscount": "",
+        "productDescription": "",
+        "productQuatity": 4
+    },
+    {
+        "$id": "A15",
+        "productName": "Icing Sugar, 12 x 500g",
+        "productCategory": "Baking/Cooking Ingredients",
+        "productPrice": 9.38,
+        "priceDiscount": "",
+        "productDescription": "",
+        "productQuatity": 6
+    },
+    {
+        "$id": "A16",
+        "productName": "Free-Range Eggs, 10 x 12 each",
+        "productCategory": "Baking/Cooking Ingredients",
+        "productPrice": 9.52,
+        "priceDiscount": "",
+        "productDescription": "",
+        "productQuatity": 9
+    },
+    {
+        "$id": "A17",
+        "productName": "Caster Sugar, 16 x 750g",
+        "productCategory": "Baking/Cooking Ingredients",
+        "productPrice": 12.76,
+        "priceDiscount": "",
+        "productDescription": "",
+        "productQuatity": 13
+    },
+    {
+        "$id": "A18",
+        "productName": "Kitchen Roll, 100 x 300 sheets",
+        "productCategory": "Miscellaneous Items",
+        "productPrice": 43.92,
+        "priceDiscount": "",
+        "productDescription": "",
+        "productQuatity": 19
+    },
+    {
+        "$id": "A19",
+        "productName": "Paper Plates, 10 x 200 each",
+        "productCategory": "Miscellaneous Items",
+        "productPrice": 16.19,
+        "priceDiscount": "",
+        "productDescription": "",
+        "productQuatity": 7
+    }
+]

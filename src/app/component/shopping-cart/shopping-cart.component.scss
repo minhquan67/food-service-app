@@ -1,0 +1,12 @@
+.cart-details {
+    h2 {
+        text-align: center;
+    }
+    table {
+        width: 100%;
+        text-align: center;
+        .mat-error {
+            color: red;
+        }
+    }
+}

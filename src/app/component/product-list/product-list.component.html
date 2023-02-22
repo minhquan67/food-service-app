@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+        <h1>Product List</h1>
+    </div>
+    <div class="row">
+        <div *ngFor="let product of products">
+            <mat-card>
+                <h3>{{ product.productName }}</h3>
+                <p>Price: 
+                    <ng-container *ngIf="product.priceDiscount">
+                        <del>£{{ product.productPrice }}</del> - £{{ product.priceDiscount }}
+                    </ng-container>
+                    <ng-container *ngIf="!product.priceDiscount">
+                        £{{ product.productPrice }}
+                    </ng-container>
+                </p>
+                <p>Category: {{ product.productCategory }}</p>
+                <p>In stock: {{ product.productQuatity }}</p>
+                <button mat-raised-button color="primary" (click)="addToCart(product)" [disabled]="product.productQuatity === 0">Add to Cart</button>
+            </mat-card>
+        </div>
+    </div>
+</div>

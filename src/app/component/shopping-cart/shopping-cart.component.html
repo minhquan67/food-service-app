@@ -1,0 +1,78 @@
+<div class="cart-details">
+    <h2>Cart Detail</h2>
+    <table *ngIf="cartItems.length > 0">
+        <tr>
+            <th>Product Name</th>
+            <th>
+                Product Category
+            </th>
+            <th>
+                Quantity
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                cost
+            </th>
+        </tr>
+        <tr *ngFor="let item of cartItems">
+            <td>
+                {{ item.productDetails.productName }}
+            </td>
+            <td>
+                {{ item.productDetails.productCategory }}
+            </td>
+            <td>
+                <mat-form-field>
+                    <input [(ngModel)]="item.quantity" type="number" class="form-control" matInput name="quantity"
+                        min="0" (change)="onChangeQuantity(item)">
+                </mat-form-field>
+
+            </td>
+            <td>
+                <ng-container *ngIf="item.productDetails.priceDiscount">
+                    <del>£{{ item.productDetails.productPrice | number}}</del> - £{{ item.productDetails.priceDiscount |
+                    number}}
+                </ng-container>
+                <ng-container *ngIf="!item.productDetails.priceDiscount">
+                    £{{ item.productDetails.productPrice | number}}
+                </ng-container>
+            </td>
+            <td>
+                £{{ item.productDetails.cost | number}}
+            </td>
+            <td>
+                <button mat-raised-button color="accent" (click)="removeCartItem(item)">Remove</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <mat-form-field>
+                    <input [(ngModel)]="promotionCode" class="form-control" matInput name="promotionCode"
+                        placeholder="Promotion Code" (ngModelChange)="updatePromotion()">
+                        <mat-hint class="mat-error" *ngIf="promotionCode!=='' && promotionCode!=='20OFFPROMO'">inValid code</mat-hint>
+                </mat-form-field>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <p>
+                    Total Price: £{{ order?.orderTotal| number}}
+                </p>
+                <p>
+                    Total Discount: £{{ order?.totalDiscount| number}}
+                </p>
+                <p>
+                    Total Total With Discount: £{{ order?.orderTotalWithDiscount| number}}
+                </p>
+            </td>
+        </tr>
+    </table>
+    <div>
+        <button mat-raised-button color="primary" routerLink="/">
+            <mat-icon>arrow_back</mat-icon>
+            Back to product list
+        </button>
+    </div>
+</div>

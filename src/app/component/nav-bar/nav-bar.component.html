@@ -1,0 +1,7 @@
+<mat-toolbar color="primary" class="home-toolbar">
+  <div class="header-info">
+    <mat-icon style="cursor: pointer;" routerLink="cart-detail" [matBadge]="cartTotal == 0? '': cartTotal" matBadgeColor="warn">
+      shopping_cart
+    </mat-icon>
+  </div>
+</mat-toolbar>
